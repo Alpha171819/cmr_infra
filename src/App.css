@@ -16,6 +16,8 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin: 0 auto;
+  width: fit-content;
 }
 .link {
   position: relative;
