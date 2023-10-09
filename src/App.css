@@ -1,0 +1,154 @@
+  
+
+  /* carousel design */
+  
+  .container {
+  display: flex;
+} 
+
+
+.card {
+    flex: 1; 
+    flex-shrink: 4;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    height: 240px;
+    width: 200px;
+    background-image:  url("../src/assets/carousel-2.jpg");
+  background-size: cover;
+  margin: 5px;
+
+
+}
+
+.card img{
+  filter: grayscale(1);
+  height: 240px;
+
+}
+
+
+.card:hover {
+  flex: 1.5;
+  height: 240px;
+  width: 200px;
+  margin: 10px;
+
+}
+
+  
+
+
+.card:hover img{
+  filter: none;
+  
+}
+
+
+
+/* profile cards */
+
+
+
+.pcontainer {
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.pborder {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+
+
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #0c0c0c;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+h2:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.fa {
+  opacity: 0;
+  transition: opacity 1s;
+  
+  
+}
+
+.pcard {
+  height: 379px;
+  width: 300px;
+  background: #b65a5a;
+  border-radius: 10px;
+  transition: background 1s;
+  overflow: hidden;
+  background: #0a4166;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pcard1 {
+  background: url("../src/assets/team-1.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.pcard1:hover {
+  background: url("../src/assets/team-1.jpg") left center no-repeat;
+  background-size: 600px;
+}
+
+.pcard1:hover h2 {
+  opacity: 1;
+  
+}
+
+.pcard1:hover .fa {
+  opacity: 1;
+
+}
+
+
+.picons {
+  position: absolute;
+  fill: #be1a1a;
+  color: #ffffff;
+  height: 130px;
+  top: 226px;
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+.picon:hover {
+  color: #f8f404;
+  cursor: pointer;
+  
+  
+}

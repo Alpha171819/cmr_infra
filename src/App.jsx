@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MyCarousel from '../components/Carousel'
+import ProfileCard from '../components/ProfileCard'
 
 import './App.css'
 
@@ -9,7 +11,8 @@ function App() {
   return (
     
       <div>
-        helloooooo
+        <MyCarousel />
+        <ProfileCard />
     </div>
   )
 }
