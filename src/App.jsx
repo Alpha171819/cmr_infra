@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import MyCarousel from '../components/Carousel'
 import ProfileCard from '../components/ProfileCard'
 
+import Navbar from '../components/Navbar';
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <div>
         <MyCarousel />
         <ProfileCard />
+        <Navbar />
     </div>
   )
 }
